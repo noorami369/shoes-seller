@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(40, 43, 46);
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(255, 0, 0); */
+  width: 960px;
+  margin-top: 15px;
+}
+
+.nav-logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+}
+
+#page-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inter;
+  border-radius: 6px;
+  font-weight: 700;
+  padding-left: 15px;
+  color: aliceblue;
+}
+
+#page-name span {
+  color: rgb(186, 8, 8);
+  border: dotted;
+  padding: 2px;
+}
+
+#page-name:hover {
+  cursor: default;
+}
+
+.menu-btn-group {
+  display: flex;
+}
+
+.nav-menu-btn {
+  background-color: rgb(40, 43, 46);
+  border: none;
+}
+
+.nav-menu-btn-text {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  font-size: large;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: color 0.3s ease;
+}
+
+.nav-menu-btn-text:hover {
+  color: rgb(255, 45, 45);
+  animation: neon-blink-small 1.5s infinite alternate;
+}
+
+.nav-menu-btn-text::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: rgb(255, 45, 45);
+  transition: width 0.3s ease;
+}
+
+.nav-menu-btn-text:hover::after {
+  width: 100%;
+}
+
+#line1 {
+  opacity: 0.3;
+}
+
+@keyframes neon-blink-small {
+  0% {
+    text-shadow: 0 0 2px rgb(255, 45, 45), 0 0 4px rgb(255, 45, 45);
+  }
+  50% {
+    text-shadow: 0 0 3px rgb(255, 45, 45), 0 0 6px rgb(255, 45, 45),
+      0 0 12px rgba(255, 45, 45, 0.7);
+  }
+  100% {
+    text-shadow: 0 0 2px rgb(255, 45, 45), 0 0 5px rgb(255, 45, 45);
+  }
+}
