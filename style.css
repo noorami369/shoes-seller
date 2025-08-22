@@ -8,16 +8,17 @@
 
 body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
   background-color: rgb(40, 43, 46);
+  font-family: inter;
 }
 
 .nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: rgb(255, 0, 0); */
   width: 960px;
   margin-top: 15px;
 }
@@ -38,7 +39,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: inter;
   border-radius: 6px;
   font-weight: 700;
   padding-left: 15px;
@@ -98,6 +98,109 @@ body {
 
 #line1 {
   opacity: 0.3;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.suggested-collection {
+  display: flex;
+  justify-content: center;
+  width: 960px;
+  color: rgb(255, 125, 35);
+}
+
+.collection-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 960px;
+  margin-top: 15px;
+}
+
+.shoe-1 {
+  display: inline;
+  padding: 0px 15px 0px 15px;
+  background-color: rgba(70, 70, 70, 0.722);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.shoe-2 {
+  display: inline;
+  padding: 0px 15px 0px 15px;
+  background-color: rgba(70, 70, 70, 0.722);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.shoe-3 {
+  display: inline;
+  padding: 0px 15px 0px 15px;
+  background-color: rgba(70, 70, 70, 0.722);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.shoe-4 {
+  display: inline;
+  padding: 0px 15px 0px 15px;
+  background-color: rgba(70, 70, 70, 0.722);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.shoe-5 {
+  display: inline;
+  padding: 0px 15px 0px 15px;
+  background-color: rgba(70, 70, 70, 0.722);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.shoe-6 {
+  display: inline;
+  padding: 0px 15px 0px 15px;
+  background-color: rgba(70, 70, 70, 0.722);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.shoe-7 {
+  display: inline;
+  padding: 0px 15px 0px 15px;
+  background-color: rgba(70, 70, 70, 0.722);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.shoe-8 {
+  display: inline;
+  padding: 0px 15px 0px 15px;
+  background-color: rgba(70, 70, 70, 0.722);
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.collection-imgs {
+  width: 300px;
+  height: 345px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.img-name {
+  display: flex;
+  justify-content: center;
+  color: rgba(240, 248, 255, 0.599);
+}
+
+main:hover {
+  cursor: default;
 }
 
 @keyframes neon-blink-small {
