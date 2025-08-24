@@ -11,7 +11,10 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  background-color: rgb(40, 43, 46);
+  background-image: url(./IMG/backgroundimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   font-family: inter;
 }
 
@@ -60,7 +63,7 @@ body {
 }
 
 .nav-menu-btn {
-  background-color: rgb(40, 43, 46);
+  background: none;
   border: none;
 }
 
@@ -73,7 +76,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
-  transition: color 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .nav-menu-btn-text:hover {
@@ -125,7 +128,7 @@ main {
 .shoe-1 {
   display: inline;
   padding: 0px 15px 0px 15px;
-  background-color: rgba(70, 70, 70, 0.722);
+  background-color: rgba(70, 70, 70, 0.499);
   border-radius: 8px;
   margin-bottom: 10px;
 }
@@ -133,7 +136,7 @@ main {
 .shoe-2 {
   display: inline;
   padding: 0px 15px 0px 15px;
-  background-color: rgba(70, 70, 70, 0.722);
+  background-color: rgba(70, 70, 70, 0.499);
   border-radius: 8px;
   margin-bottom: 10px;
 }
@@ -141,7 +144,7 @@ main {
 .shoe-3 {
   display: inline;
   padding: 0px 15px 0px 15px;
-  background-color: rgba(70, 70, 70, 0.722);
+  background-color: rgba(70, 70, 70, 0.499);
   border-radius: 8px;
   margin-bottom: 10px;
 }
@@ -149,46 +152,14 @@ main {
 .shoe-4 {
   display: inline;
   padding: 0px 15px 0px 15px;
-  background-color: rgba(70, 70, 70, 0.722);
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
-.shoe-5 {
-  display: inline;
-  padding: 0px 15px 0px 15px;
-  background-color: rgba(70, 70, 70, 0.722);
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
-.shoe-6 {
-  display: inline;
-  padding: 0px 15px 0px 15px;
-  background-color: rgba(70, 70, 70, 0.722);
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
-.shoe-7 {
-  display: inline;
-  padding: 0px 15px 0px 15px;
-  background-color: rgba(70, 70, 70, 0.722);
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
-.shoe-8 {
-  display: inline;
-  padding: 0px 15px 0px 15px;
-  background-color: rgba(70, 70, 70, 0.722);
+  background-color: rgba(70, 70, 70, 0.499);
   border-radius: 8px;
   margin-bottom: 10px;
 }
 
 .collection-imgs {
-  width: 300px;
-  height: 345px;
+  width: 200px;
+  height: 270px;
   border-radius: 8px;
   margin-top: 20px;
 }
